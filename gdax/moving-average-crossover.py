@@ -40,7 +40,7 @@ class MACBot:
         #        exectuted
 
         if (True) and not self.invested:
-            # Buy 0.01 LTC @ 100 USD
+            # Buy 1.00 BTC @ 100 USD
             self.auth_client.buy(price=str(last_price), #USD
                            size='1.00', #BTC
                            product_id=self.product)
